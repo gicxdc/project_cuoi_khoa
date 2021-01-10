@@ -13,7 +13,7 @@
 }
 .drop
 {
-    background-color: blue;
+    background-color: paleturquoise;
     height: 200px;
     display: none;
     font-size: 15px;
@@ -22,7 +22,7 @@
 }
 .drop2
 {
-    background-color: blue;
+    background-color: paleturquoise;
     height: 400px;
     display: none;
     font-size: 15px;
@@ -35,6 +35,7 @@
     justify-content: space-around;
      flex-direction: column ;
      width: 33%;
+     text-align: left;
 }
 .content-frame
 {
@@ -79,4 +80,7 @@
 .text
 {
     font-size: 30px;
+}
+.drop_item a{
+    text-decoration: none;
 }
